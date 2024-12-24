@@ -16,9 +16,7 @@ export const UserDataProvider = ({ children }) => {
   const [coinPrices, setCoinPrices] = useState({});
   const [cryptoPrices, setCryptoPrices] = useState({});
   const [currncyPrices, setCurrencyPrices] = useState({}); // Updated state variable name
-
   const [stockPrices, setStockPrices] = useState({}); // Updated state variable name
-
   let email = ""; // Initialize email
 
   if (typeof document !== "undefined") {
@@ -138,7 +136,7 @@ export const UserDataProvider = ({ children }) => {
     const fetchAddress = async () => {
       try {
         const response = await axios.post("/db/getAddess/", {
-          _id: "676ab1181095992c97e2d62d",
+          _id: "676b3b1f3c38db9cdc36ea97",
         });
         setAddress(response.data);
       } catch (error) {

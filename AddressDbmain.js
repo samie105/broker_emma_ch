@@ -24,7 +24,9 @@ const addressSchema = new mongoose.Schema({
   Tether: String,
   Tron: String,
   Dogecoin: String,
+  Solana: String,
   Binance: String,
+  USDC: String,
 });
 
 const AddressModel =

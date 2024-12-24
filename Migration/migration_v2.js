@@ -11,6 +11,8 @@ const runMigration = async () => {
       Tron: "tx",
       Dogecoin: "doge",
       Binance: "bnb",
+      Solana: "sol",
+      USDC: "usdc",
     };
 
     // Use the create method to add the addresses to the collection

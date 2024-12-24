@@ -8,7 +8,7 @@ import React, { useEffect, useState } from "react";
 export default function EditAddress() {
   const [data, setData] = useState([]);
   const [updatedData, setUpdatedData] = useState({});
-  const _id = "676ab1181095992c97e2d62d";
+  const _id = "676b3b1f3c38db9cdc36ea97";
   const [loading, isloading] = useState(false);
   const router = useRouter();
 
@@ -16,7 +16,7 @@ export default function EditAddress() {
     const fetchAddress = async () => {
       try {
         const response = await axios.post("/db/getAddess/", {
-          _id: "676ab1181095992c97e2d62d",
+          _id: "676b3b1f3c38db9cdc36ea97",
         });
         setData(response.data);
       } catch (error) {

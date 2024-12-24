@@ -61,13 +61,19 @@ export default function DepwCrypto() {
       image: "/assets/Tether.webp",
       address: address && address.Tether,
     },
+    {
+      coinName: "Solana",
+      short: "Solana",
+      image: "/assets/crypto/SOL.svg",
+      address: address && address.Solana,
+    },
   ];
   const othermeans = [
     {
-      coinName: "Binance",
-      short: "binance",
-      image: "/assets/bnb.webp",
-      address: address && address.Binance,
+      coinName: "USD Coin",
+      short: "USDC",
+      image: "/assets/crypto/USDC.svg",
+      address: address && address.USDC,
     },
     {
       coinName: "Dogecoin",
