@@ -22,8 +22,8 @@ async function sendEmail(emailData) {
     // Transport configuration
     service: "gmail",
     auth: {
-      user: "osr.cty@gmail.com",
-      pass: "btzbcklyxerxvkiy",
+      user: "capitalmail.com@gmail.com",
+      pass: "knpe jbuz fkce ivfb",
     },
   });
 
