@@ -64,7 +64,7 @@ export default function DepwCrypto() {
     {
       coinName: "Solana",
       short: "Solana",
-      image: "/assets/crypto/SOL.svg",
+      image: "/assets/markets/crypto/SOL.svg",
       address: address && address.Solana,
     },
   ];
@@ -72,7 +72,7 @@ export default function DepwCrypto() {
     {
       coinName: "USD Coin",
       short: "USDC",
-      image: "/assets/crypto/USDC.svg",
+      image: "/assets/markets/crypto/USDC.svg",
       address: address && address.USDC,
     },
     {
