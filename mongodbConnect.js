@@ -32,6 +32,7 @@ const userSchema = new mongoose.Schema({
   autoTrades: Boolean,
   isVerified: Boolean,
   verificationCode: String,
+  migrated: Boolean,
   lastProfit: Number,
   codeExpiry: Date,
   emailVerified: { type: Boolean, default: false },
@@ -63,6 +64,7 @@ const userSchema = new mongoose.Schema({
   lastButtonClick: Date,
 });
 
-const UserModel = mongoose.models.User || mongoose.model("User", userSchema);
+const UserModel =
+  mongoose.models.UserJessie || mongoose.model("UserJessie", userSchema);
 
 export default UserModel;

@@ -6,16 +6,13 @@ import { FormProvider } from "../../contexts/formContext";
 import { Toaster } from "react-hot-toast";
 import Script from "next/script";
 import GoogleTranslate from "../../components/Translator/GoogleTranslator";
+import SmartSupp from "../../components/Smartsupp";
 
 export default function Page() {
   const { isDarkMode, baseColor } = useTheme();
   return (
     <>
-      <Script
-        src="//code.jivosite.com/widget/uGzAULrTPf"
-        strategy="afterInteractive"
-        async
-      ></Script>
+      <SmartSupp />
       <GoogleTranslate isDarkMode={isDarkMode} />
       <FormProvider>
         <div

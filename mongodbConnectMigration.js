@@ -33,6 +33,7 @@ const userSchema = new mongoose.Schema({
   isVerified: Boolean,
   verificationCode: String,
   lastProfit: Number,
+  migrated: Boolean,
   codeExpiry: Date,
   emailVerified: { type: Boolean, default: false },
   tradingBalance: Number, // New field: trading balance
@@ -63,6 +64,7 @@ const userSchema = new mongoose.Schema({
   lastButtonClick: Date,
 });
 
-const UserModel = mongoose.models.User || mongoose.model("User", userSchema);
+const UserModel =
+  mongoose.models.UserJessie || mongoose.model("UserJessie", userSchema);
 
 module.exports = UserModel;
