@@ -205,6 +205,7 @@ export default function DepwCrypto() {
       progress: undefined,
       theme: "light",
     });
+    a;
     sendDepositHistory();
     setAmountInUSD("");
   };
