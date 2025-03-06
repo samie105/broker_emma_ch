@@ -8,7 +8,7 @@ declare global {
     _smartsupp: any;
   }
 }
-
+//commit changes
 export default function SmartSupp() {
   useEffect(() => {
     window._smartsupp = window._smartsupp || {};
