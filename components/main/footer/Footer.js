@@ -33,7 +33,7 @@ export default function Footer() {
               </svg>
             </section>
             <section className="broker-writeup text-sm text-white/60  ">
-              Capital Nexus is a financial investment company established by a
+              Coin Masters is a financial investment company established by a
               group of professional traders and investors, who have fore seen
               the future of International Capital Market. The company has direct
               contracts with professional traders and miners around the world

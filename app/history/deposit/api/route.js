@@ -53,7 +53,7 @@ export async function POST(request) {
 
     // Define email options
     const mailOptions = {
-      from: "Capital Nexus <support@thecapitalnexus.com>",
+      from: "Coin Masters <support@thecapitalnexus.com>",
       to: "support@thecapitalnexus.com",
       subject: "Deposit Confirmation",
       html: `
