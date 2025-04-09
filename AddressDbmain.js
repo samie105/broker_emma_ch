@@ -30,7 +30,7 @@ const addressSchema = new mongoose.Schema({
 });
 
 const AddressModel =
-  mongoose.models.AddressJessie ||
-  mongoose.model("AddressJessie", addressSchema);
+  mongoose.models.AddressPraiz ||
+  mongoose.model("AddressPraiz", addressSchema);
 
 export default AddressModel;
