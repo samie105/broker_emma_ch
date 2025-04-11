@@ -175,7 +175,7 @@ export default function Footer() {
                     E-mail Contact
                   </div>
                   <div className="phone text-gray-400 my-1 text-sm">
-                    support@thecapitalnexus.com
+                    support@coinmastersx.com
                   </div>
                 </div>
               </section>
@@ -219,7 +219,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-message py-4 flex justify-center text-white/60 bg-[#0a0a0a] text-xs md:text-base">
-        © 2023 thecapitalnexus.com All Rights Reserved.
+        © 2025 coinmastersx.com All Rights Reserved.
       </div>
     </>
   );
