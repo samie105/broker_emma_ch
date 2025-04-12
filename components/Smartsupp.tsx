@@ -12,7 +12,7 @@ declare global {
 export default function SmartSupp() {
   useEffect(() => {
     window._smartsupp = window._smartsupp || {};
-    window._smartsupp.key = "ee8834c3c6e83fa862e89f9caf1319a1759e1976";
+    window._smartsupp.key = "572cdc8ab159c994ef97c92c4dc85aa8867c5721";
     window.smartsupp =
       window.smartsupp ||
       function () {
